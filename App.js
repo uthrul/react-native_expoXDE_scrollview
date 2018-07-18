@@ -5,7 +5,11 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hello World</Text>
+        <Text style={styles.containerFont}>Hello World</Text>
+        <Text>Hello React</Text>
+        <Text>Hello React Native</Text>
+        <Text>Hello Java Script</Text>
+        <Text style={styles.containerFont}>Hello Expo</Text>
       </View>
     );
   }
@@ -18,4 +22,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  containerFont: {
+    fontSize: 30,
+  }
 });
