@@ -1,15 +1,14 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { 
+  StyleSheet, View ,
+} from 'react-native';
+import Horizontal from './components/Horizontal'
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.containerFont}>Hello World</Text>
-        <Text>Hello React</Text>
-        <Text>Hello React Native</Text>
-        <Text>Hello Java Script</Text>
-        <Text style={styles.containerFont}>Hello Expo</Text>
+        <Horizontal/>
       </View>
     );
   }
@@ -22,7 +21,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  containerFont: {
-    fontSize: 30,
-  }
 });
