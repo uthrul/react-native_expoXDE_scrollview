@@ -1,4 +1,3 @@
-react natively with expo XDE tools, make simple app scrollview.
-https://expo.io/tools
-https://expo.io
-https://docs.expo.io/versions/latest/introduction/xde-tour
+#react natively with expo XDE tools
+- make simple app scrollview.
+- test app https://expo.io/@sauthrully/simple-scrollview
